@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Top Tourist Spots</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Discover Tourist Spots</h1>
+      <p class="tagline">A small showcase of beautiful places</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="spots">
+      <!-- Spot 1 -->
+<article class="spot-card" data-name="Mystic Falls Viewpoint">
+    <img src="images/Krang-Suri-Falls-1-gaimg.jpg" alt="Mystic Falls">
+    <div class="spot-content">
+      <h2>Mystic Falls Viewpoint</h2>
+      <p>A serene turquoise waterfall hidden deep within the forest.</p>
+      <button class="more-btn" data-id="1">Read more</button>
+    </div>
+  </article>
+  
+  <!-- Spot 2 -->
+  <article class="spot-card" data-name="Emerald Tea Gardens">
+    <img src="images/photo-1742106852724-0faf505b7797.jpeg" alt="Tea Gardens">
+    <div class="spot-content">
+      <h2>Emerald Tea Gardens</h2>
+      <p>Rolling hills of bright green tea plantations.</p>
+      <button class="more-btn" data-id="2">Read more</button>
+    </div>
+  </article>
+  
+  <!-- Spot 3 -->
+  <article class="spot-card" data-name="Valley Trek Waterfall Point">
+    <img src="images/Aadrai_Jungle_Trek_10.jpg" alt="Valley Trek Waterfall">
+    <div class="spot-content">
+      <h2>Valley Trek Waterfall Point</h2>
+      <p>A tall cliff waterfall seen from a panoramic valley viewpoint.</p>
+      <button class="more-btn" data-id="3">Read more</button>
+    </div>
+  </article>
+  
+    </section>
+
+    <section id="detail" class="detail hidden">
+      <button id="backBtn">← Back</button>
+      <div id="detailContent"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tourist Spots Showcase</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
