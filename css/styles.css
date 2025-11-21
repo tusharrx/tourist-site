@@ -5,8 +5,8 @@
    :root {
     --bg-gradient: linear-gradient(135deg, #d9f7f1 0%, #ffffff 100%);
     --card-bg: rgba(255, 255, 255, 0.7);
-    --accent: #0a9f8d;
-    --accent-dark: #087a68;
+    --accent: #0072ff;
+    --accent-dark: #0056c7;
     --text-dark: #1e1e1e;
     --text-light: #555;
     --radius: 18px;
