@@ -1,13 +1,9 @@
-/* ===========================
-   DARK GREEN BRUTAL-PREMIUM THEME
-   =========================== */
-
    :root {
-    --bg: #eef4ec; /* soft pale green */
+    --bg: #eef4ec; 
     --card-bg: #ffffff;
-    --border: #0f2b17; /* deep forest border */
-    --accent: #1c7c3f; /* main forest green */
-    --accent-dark: #145c2d; /* darker green hover */
+    --border: #0f2b17; 
+    --accent: #1c7c3f; 
+    --accent-dark: #145c2d; 
     --text: #0f2b17;
     --muted: #4f6f5b;
     --radius: 22px;
@@ -15,9 +11,7 @@
     --shadow-hover: 10px 10px 0px #0f2b17;
   }
   
-  /* ===========================
-     BASIC RESET
-     =========================== */
+
   * {
     margin: 0;
     padding: 0;
